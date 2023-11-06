@@ -11,7 +11,7 @@ if (age >= 18) {
 }
 else {
     console.log("Your age is less than 18 years old!!!");
-}
+}ddddd
 
 */
 
