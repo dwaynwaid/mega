@@ -48,7 +48,6 @@ else {
 
 //exersice 3
 
-const sss = prompt("sdfsdfsd;")
 
-console.log(sss);
+
 
