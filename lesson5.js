@@ -15,8 +15,11 @@ else {
 
 */
 
+
 //exercise 2
 
+
+/*
 let first_count = Number(prompt("Your first count is: ?"));
 let second_count = Number(prompt("Your second count is: ?"));
 let symbol = prompt("Your symbol is: ?");
@@ -41,7 +44,11 @@ else {
     console.log("Your symbol is not accepted!!!");
 }
 
-
+*/
 
 //exersice 3
+
+const sss = prompt("sdfsdfsd;")
+
+console.log(sss);
 
