@@ -48,6 +48,18 @@ else {
 
 //exersice 3
 
+const text = prompt("Enter text: ");
 
 
+
+
+for (let start = 0; start <= text.length; start++) {
+    if (start % 2 === 0 && text[start] === ' ') {
+        console.log(text[start].toUpperCase())
+    } else {
+
+        console.log(text[start].toLowerCase())
+
+    }
+}
 
