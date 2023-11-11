@@ -54,12 +54,13 @@ const text = prompt("Enter text: ");
 
 
 for (let start = 0; start <= text.length; start++) {
-    if (start % 2 === 0 && text[start] === ' ') {
+    if (start % 2 === 0) {
         console.log(text[start].toUpperCase())
     } else {
 
-        console.log(text[start].toLowerCase())
+        console.log(text[start].toLowerCase());
 
     }
+
 }
 
