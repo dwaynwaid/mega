@@ -42,7 +42,7 @@ operations(a, b);
 */
 
 // lesson6 function => 
-
+/*
 const a = Number(prompt("Enter first number: "));
 const b = Number(prompt("Enter second number: "));
 
@@ -54,4 +54,36 @@ const operation = (a, b) => {
 }
 
 operation(a, b);
+
+*/
+
+//lesson 6, task 2
+
+const numbers1 = Number(prompt(("Enter your numbers")));
+
+function checkNumber() {
+
+    if (numbers1 % 2 === 0) {
+
+        even();
+
+    }
+    else if (numbers1 % 2 !== 0) {
+
+
+        odd();
+
+    }
+
+}
+checkNumber(numbers1);
+
+function even() {
+    console.log(numbers1);
+}
+
+function odd() {
+    console.log(numbers1 * 2);
+}
+
 
