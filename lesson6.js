@@ -21,11 +21,13 @@ const sum = (a, b) => {
 
 */
 
+//lesson 6
+
+/*
 const a = Number(prompt("Enter first number: "));
 const b = Number(prompt("Enter second number: "));
 
-typeof a;
-typeof b;
+
 
 
 function operations() {
@@ -36,4 +38,20 @@ function operations() {
 
 }
 operations(a, b);
+
+*/
+
+// lesson6 function => 
+
+const a = Number(prompt("Enter first number: "));
+const b = Number(prompt("Enter second number: "));
+
+const operation = (a, b) => {
+    console.log(a + b);
+    console.log(a - b);
+    console.log(a * b);
+    console.log(a / b);
+}
+
+operation(a, b);
 
